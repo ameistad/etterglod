@@ -1,0 +1,29 @@
+{
+  "name": "etterglod",
+  "displayName": "Etterglod Color Theme",
+  "description": "Dark theme based on Afterglow for VS Code",
+  "publisher": "ameistad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ameistad/etterglod-vscode-color-theme"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Etterglod",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Etterglod-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.66.0"
+  }
+}
